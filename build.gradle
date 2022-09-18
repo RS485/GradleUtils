@@ -20,7 +20,7 @@ java {
     }
 }
 
-group 'net.minecraftforge.gradleutils' //Test
+group 'network.rs485.forge.gradleutils'
 version GradleUtils.getTagOffsetVersion(GIT_INFO)
 println('Version: ' + version)
 
@@ -76,7 +76,7 @@ license {
 gradlePlugin {
     plugins {
         gradleutils {
-            id = 'net.minecraftforge.gradleutils'
+            id = 'network.rs485.forge.gradleutils'
             implementationClass = 'net.minecraftforge.gradleutils.GradleUtilsPlugin'
         }
     }
